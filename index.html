@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <HTML>
+        <HEAD>
+          <TITLE>jdaй BETA</TITLE>
+          <SCRIPT LANGUAGE="JavaScript1.2">
+          <!--
+            function luckySearch() {
+              var query = document.searchForm.q.value;
+              if (query == "") {
+                alert("Введите запрос!");
+              } else {
+                window.location.href = "https://www.google.com/search?q=" + escape(query);
+              }
+            }
+        
+            function normalSearch() {
+              var query = document.searchForm.q.value;
+              if (query == "") {
+                alert("Введите запрос!");
+              } else {
+                window.location.href = "https://www.google.com/search?q=" + escape(query);
+              }
+            }
+          //-->
+          </SCRIPT>
+        </HEAD>
+        
+        <BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#660099" ALINK="#FF0000">
+        
+        <CENTER>
+          <!-- Логотип -->
+          <IMG SRC="IMG_1795.jpg" ALT="jdaй BETA" WIDTH="300">
+          <BR><BR>
+        
+          <FONT FACE="Arial,Helvetica" SIZE="4">
+            Search the web using jdaй!
+          </FONT>
+          <BR><BR>
+        
+          <!-- Форма поиска -->
+          <FORM NAME="searchForm" onSubmit="normalSearch(); return false;">
+            <INPUT TYPE="text" NAME="q" SIZE="40">
+            <BR><BR>
+            <INPUT TYPE="button" VALUE="jdaй Search" onClick="normalSearch()">
+            <INPUT TYPE="button" VALUE="I'm feeling lucky" onClick="luckySearch()">
+          </FORM>
+        
+          <BR><BR>
+        
+          <!-- Меню -->
+          <TABLE BORDER="0" WIDTH="60%" CELLPADDING="10" CELLSPACING="0">
+            <TR ALIGN="CENTER">
+              <TD BGCOLOR="#CCFFFF">
+                <FONT FACE="Arial,Helvetica" SIZE="3">
+                  <B>Special Searches</B><BR>
+                  <A HREF="https://www.google.com/search?q=Stanford">Stanford Search</A><BR>
+                  <A HREF="https://www.google.com/search?q=Linux">Linux Search</A>
+                </FONT>
+              </TD>
+              <TD BGCOLOR="#99CCFF">
+                <FONT FACE="Arial,Helvetica" SIZE="3">
+                  <B>Help!</B><BR>
+                  <A HREF="#">About jdaй</A><BR>
+                  <A HREF="#">Company Info</A><BR>
+                  <A HREF="#">jdaй Logos</A>
+                </FONT>
+              </TD>
+              <TD BGCOLOR="#6699CC">
+                <FONT FACE="Arial,Helvetica" SIZE="3">
+                  <B>Get jdaй! updates monthly:</B><BR>
+                  <FORM ACTION="subscribe.html" METHOD="POST">
+                    <INPUT TYPE="text" NAME="email" SIZE="15"><BR>
+                    <INPUT TYPE="submit" VALUE="Subscribe">
+                  </FORM>
+                  <A HREF="#">Archive</A>
+                </FONT>
+              </TD>
+            </TR>
+          </TABLE>
+        
+          <BR>
+        
+          <!-- Копирайт -->
+          <FONT FACE="Arial,Helvetica" SIZE="2">
+            Copyright &copy; 1998 jdaй Inc.
+          </FONT>
+        
+        </CENTER>
+        
+        </BODY>
+        </HTML>
+</body>
+</html>
